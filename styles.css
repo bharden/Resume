@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E5E6E4;
+}
+
+.menuli {
+  float: right;
+}
+
+.menuli p {
+  display: flex;
+  color: #222220;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+.menu a {
+  display: flex;
+  color: #222220;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+   background: #CFD2CD;
+   color: #222220;
+ }
+
+.footer {
+  text-align: center;
+  background-color: #E5E6E4;
+  color: #222220;
+  padding: 15px;
+}
+
+.footer h2 {
+  font-size: 25px;
+  font-family: cursive;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/*home page*/
+
+ .profile-picture {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+
+ .top-center {
+   font-family: cursive;
+   font-size: 50px;
+   color: #E5E6E4;
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .home-content {
+   text-align: center;
+   font-size: 20px;
+   padding: 40px;
+   background-color: #FBFBF2;
+ }
+
+.skillset {
+  background-color: #FBFBF2;
+  padding-bottom: 20px;
+}
+
+.skillset h1 {
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  color: #222220;
+  padding-bottom: 20px;
+}
+
+.skillset li {
+  list-style-type: none;
+  font-size: 25px;
+  text-align: center;
+  color: #222220;
+}
+
+/* Hobbies page*/
+
+.hobbies-title {
+  font-size: 40px;
+  font-family: cursive;
+  color: #222220;
+  text-align: center;
+}
+
+.hobbies-title p {
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #222220;
+}
+
+/*FIXME!!!!!*/
+.hobbies {
+  padding: 20px;
+  text-align: center;
+}
+
+.hobbies p {
+  color: #222220;
+}
+
+.hob1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.hob2 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.hob3 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.hob4 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.hob5 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.hob6 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+/*FIXME!!!!!*/
+.pics {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.pics img {
+  max-width: 100%;
+}
+
+.pic3 {
+  transform: rotate(180deg);
+}
+
+.pic11 {
+  transform: rotate(180deg);
+}
+
+
+/*experience*/
+.experience-title {
+  text-align: center;
+  color: #222220;
+}
+
+.experience-title h1 {
+  font-style: 40px;
+  font-family: cursive;
+}
+
+.experience-title p {
+  font-family: fantasy;
+  padding-bottom: 10px;
+}
+
+.spacer {
+  text-align: center;
+  font-style: oblique;
+  padding: 30px;
+  background-color: #E5E6E4;
+}
+.experience-content {
+  padding: 40px;
+  text-align: center;
+  line-height: 30px;
+}
+
+/*about*/
+
+.about-title {
+  font-family: cursive;
+  font-size: 50px;
+  color: #222220;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-content p {
+  color: #222220;
+}
+
+.con1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.con2 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.con3 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.con4 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.con5 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+.con6 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E5E6E4;
+}
+
+@media only screen and (min-width: 901px) {
+  .about-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+
+  .hobbies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+}
